@@ -6,10 +6,10 @@ import time
 import random
 
 # ========= REDDIT CONFIG =========
-CLIENT_ID = "tr2ytH2fI9Mw6Y5ReoDb2Q"
-CLIENT_SECRET = "fE-4r4SaX96dzHhr9lqX3vZAC6EbIQ"
-REFRESH_TOKEN = "196487001934098-ZmJx_JRHpigRu6u-zTmsRnyw82un4Q"
-USER_AGENT = "YumiAI Bot (by u/baosieucap)"   # nhớ thay username thật của bạn
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+REFRESH_TOKEN = ""
+USER_AGENT = ""   # nhớ thay username thật của bạn
 
 # ========= INIT REDDIT CLIENT =========
 reddit = praw.Reddit(
@@ -193,4 +193,5 @@ def run_reddit_bot():
             time.sleep(30)
 
 if __name__ == "__main__":
+
     run_reddit_bot()
