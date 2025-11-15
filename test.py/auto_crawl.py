@@ -6,10 +6,10 @@ import time
 import re
 
 # ========= REDDIT CONFIG =========
-CLIENT_ID = "tr2ytH2fI9Mw6Y5ReoDb2Q"
-CLIENT_SECRET = "fE-4r4SaX96dzHhr9lqX3vZAC6EbIQ"
-REFRESH_TOKEN = "196487001934098-ZmJx_JRHpigRu6u-zTmsRnyw82un4Q"
-USER_AGENT = "YumiAI Learner (by u/Yumipro)"   # đổi YOUR_USERNAME
+CLIENT_ID = ""
+CLIENT_SECRET = ""
+REFRESH_TOKEN = ""
+USER_AGENT = ""   # đổi YOUR_USERNAME
 
 # ========= INIT REDDIT CLIENT =========
 reddit = praw.Reddit(
@@ -135,4 +135,5 @@ if __name__ == "__main__":
             time.sleep(180)
         except Exception as e:
             print(f"⚠️ Lỗi ngoài vòng lặp chính: {e}")
+
             time.sleep(60)
